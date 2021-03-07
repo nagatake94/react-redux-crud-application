@@ -4,7 +4,7 @@ import _ from "lodash";
 import { Link } from "react-router-dom";
 
 import { readEvents } from "../actions";
-import events from "../reducers/events";
+import events$ from "../reducers/events";
 class EventsIndex extends Component {
   componentDidMount(){
     this.props.readEvents()
